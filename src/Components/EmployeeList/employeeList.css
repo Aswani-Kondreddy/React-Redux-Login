@@ -1,0 +1,15 @@
+.main{
+    max-width: 400px;
+    margin: auto;
+}
+h3{
+text-align: center;
+}
+.list{
+    background-color: rgb(204, 70, 153);
+    color: white;
+    border-radius: 10px;
+}
+.list p{
+    padding-left: 10px;
+}

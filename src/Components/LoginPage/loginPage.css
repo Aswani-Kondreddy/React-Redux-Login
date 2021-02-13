@@ -1,0 +1,41 @@
+.main-form{
+    max-width: 450px;
+    margin: auto;
+}
+
+.input-field input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+    box-sizing : border-box;
+    outline: none;
+}
+.input-field label{
+    color: rgb(18, 126, 168);
+    padding: 10px;
+}
+.input-field [type=submit]{
+    width: 100px;
+    background-color: rgb(18, 126, 168);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+}
+.input-field input:focus{
+    border: 1.5px black solid;
+}
+.input-field [type=submit]:hover{
+    background-color: white;
+    color: rgb(18, 126, 168);
+    border: 1px solid rgb(18, 126, 168);
+}
+.error{
+    color: red;
+    text-align: center;
+}
